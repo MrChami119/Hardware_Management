@@ -19,7 +19,34 @@ namespace Hardware_Management
 
         private void label1_Click(object sender, EventArgs e)
         {
+            // This can be removed if not needed.
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+
+            // Simple validation
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Please enter both username and password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Dummy credentials for demonstration purposes
+            string correctUsername = "admin";
+            string correctPassword = "admin";
+
+            if (username == correctUsername && password == correctPassword)
+            {
+                MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                // Proceed to the next form or main application window
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

@@ -16,5 +16,10 @@ namespace Hardware_Management
         {
             InitializeComponent();
         }
+
+        private void Category_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

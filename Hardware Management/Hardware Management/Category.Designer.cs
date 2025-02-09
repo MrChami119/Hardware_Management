@@ -44,8 +44,8 @@
             this.pnlLogout = new System.Windows.Forms.Panel();
             this.lblLogout = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtCategoryName = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1.SuspendLayout();
@@ -218,15 +218,6 @@
             this.panel1.Size = new System.Drawing.Size(599, 42);
             this.panel1.TabIndex = 3;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -236,6 +227,15 @@
             this.label2.Size = new System.Drawing.Size(117, 25);
             this.label2.TabIndex = 0;
             this.label2.Text = "Categories";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
             // 
             // label3
             // 
@@ -266,6 +266,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Category";
             this.Text = "Category";
+            this.Load += new System.EventHandler(this.Category_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.pnlItem.ResumeLayout(false);
             this.pnlItem.PerformLayout();

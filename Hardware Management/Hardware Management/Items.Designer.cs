@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pnlCustomer = new System.Windows.Forms.Panel();
-            this.pnlCategories = new System.Windows.Forms.Panel();
-            this.pnlItem = new System.Windows.Forms.Panel();
-            this.pnlBilling = new System.Windows.Forms.Panel();
-            this.pnlDashboard = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.pnlItem = new System.Windows.Forms.Panel();
+            this.lblItem = new System.Windows.Forms.Label();
+            this.pnlCategories = new System.Windows.Forms.Panel();
+            this.lblCategories = new System.Windows.Forms.Label();
+            this.pnlCustomer = new System.Windows.Forms.Panel();
+            this.lblCustomer = new System.Windows.Forms.Label();
+            this.pnlBilling = new System.Windows.Forms.Panel();
+            this.lblBilling = new System.Windows.Forms.Label();
+            this.pnlDashboard = new System.Windows.Forms.Panel();
+            this.lblDashboard = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.pnlLogout = new System.Windows.Forms.Panel();
-            this.lblItem = new System.Windows.Forms.Label();
-            this.lblCategories = new System.Windows.Forms.Label();
-            this.lblCustomer = new System.Windows.Forms.Label();
-            this.lblBilling = new System.Windows.Forms.Label();
-            this.lblDashboard = new System.Windows.Forms.Label();
             this.lblLogout = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
@@ -60,9 +60,9 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.flowLayoutPanel1.SuspendLayout();
-            this.pnlCustomer.SuspendLayout();
-            this.pnlCategories.SuspendLayout();
             this.pnlItem.SuspendLayout();
+            this.pnlCategories.SuspendLayout();
+            this.pnlCustomer.SuspendLayout();
             this.pnlBilling.SuspendLayout();
             this.pnlDashboard.SuspendLayout();
             this.pnlLogout.SuspendLayout();
@@ -85,14 +85,32 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(282, 552);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // pnlCustomer
+            // panel6
             // 
-            this.pnlCustomer.Controls.Add(this.lblCustomer);
-            this.pnlCustomer.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlCustomer.Location = new System.Drawing.Point(3, 214);
-            this.pnlCustomer.Name = "pnlCustomer";
-            this.pnlCustomer.Size = new System.Drawing.Size(279, 59);
-            this.pnlCustomer.TabIndex = 0;
+            this.panel6.Location = new System.Drawing.Point(3, 3);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(279, 75);
+            this.panel6.TabIndex = 3;
+            // 
+            // pnlItem
+            // 
+            this.pnlItem.Controls.Add(this.lblItem);
+            this.pnlItem.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnlItem.Location = new System.Drawing.Point(3, 84);
+            this.pnlItem.Name = "pnlItem";
+            this.pnlItem.Size = new System.Drawing.Size(279, 59);
+            this.pnlItem.TabIndex = 1;
+            // 
+            // lblItem
+            // 
+            this.lblItem.AutoSize = true;
+            this.lblItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblItem.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblItem.Location = new System.Drawing.Point(23, 18);
+            this.lblItem.Name = "lblItem";
+            this.lblItem.Size = new System.Drawing.Size(64, 25);
+            this.lblItem.TabIndex = 0;
+            this.lblItem.Text = "Items";
             // 
             // pnlCategories
             // 
@@ -103,14 +121,36 @@
             this.pnlCategories.Size = new System.Drawing.Size(279, 59);
             this.pnlCategories.TabIndex = 1;
             // 
-            // pnlItem
+            // lblCategories
             // 
-            this.pnlItem.Controls.Add(this.lblItem);
-            this.pnlItem.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnlItem.Location = new System.Drawing.Point(3, 84);
-            this.pnlItem.Name = "pnlItem";
-            this.pnlItem.Size = new System.Drawing.Size(279, 59);
-            this.pnlItem.TabIndex = 1;
+            this.lblCategories.AutoSize = true;
+            this.lblCategories.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategories.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblCategories.Location = new System.Drawing.Point(23, 18);
+            this.lblCategories.Name = "lblCategories";
+            this.lblCategories.Size = new System.Drawing.Size(117, 25);
+            this.lblCategories.TabIndex = 1;
+            this.lblCategories.Text = "Categories";
+            // 
+            // pnlCustomer
+            // 
+            this.pnlCustomer.Controls.Add(this.lblCustomer);
+            this.pnlCustomer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnlCustomer.Location = new System.Drawing.Point(3, 214);
+            this.pnlCustomer.Name = "pnlCustomer";
+            this.pnlCustomer.Size = new System.Drawing.Size(279, 59);
+            this.pnlCustomer.TabIndex = 0;
+            // 
+            // lblCustomer
+            // 
+            this.lblCustomer.AutoSize = true;
+            this.lblCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCustomer.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblCustomer.Location = new System.Drawing.Point(23, 18);
+            this.lblCustomer.Name = "lblCustomer";
+            this.lblCustomer.Size = new System.Drawing.Size(105, 25);
+            this.lblCustomer.TabIndex = 2;
+            this.lblCustomer.Text = "Customer";
             // 
             // pnlBilling
             // 
@@ -122,6 +162,17 @@
             this.pnlBilling.Size = new System.Drawing.Size(279, 59);
             this.pnlBilling.TabIndex = 1;
             // 
+            // lblBilling
+            // 
+            this.lblBilling.AutoSize = true;
+            this.lblBilling.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBilling.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblBilling.Location = new System.Drawing.Point(23, 18);
+            this.lblBilling.Name = "lblBilling";
+            this.lblBilling.Size = new System.Drawing.Size(70, 25);
+            this.lblBilling.TabIndex = 3;
+            this.lblBilling.Text = "Billing";
+            // 
             // pnlDashboard
             // 
             this.pnlDashboard.Controls.Add(this.lblDashboard);
@@ -131,12 +182,16 @@
             this.pnlDashboard.Size = new System.Drawing.Size(279, 59);
             this.pnlDashboard.TabIndex = 2;
             // 
-            // panel6
+            // lblDashboard
             // 
-            this.panel6.Location = new System.Drawing.Point(3, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(279, 75);
-            this.panel6.TabIndex = 3;
+            this.lblDashboard.AutoSize = true;
+            this.lblDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDashboard.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblDashboard.Location = new System.Drawing.Point(23, 19);
+            this.lblDashboard.Name = "lblDashboard";
+            this.lblDashboard.Size = new System.Drawing.Size(117, 25);
+            this.lblDashboard.TabIndex = 4;
+            this.lblDashboard.Text = "Dashboard";
             // 
             // panel7
             // 
@@ -152,61 +207,6 @@
             this.pnlLogout.Name = "pnlLogout";
             this.pnlLogout.Size = new System.Drawing.Size(279, 49);
             this.pnlLogout.TabIndex = 5;
-            // 
-            // lblItem
-            // 
-            this.lblItem.AutoSize = true;
-            this.lblItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblItem.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblItem.Location = new System.Drawing.Point(23, 18);
-            this.lblItem.Name = "lblItem";
-            this.lblItem.Size = new System.Drawing.Size(64, 25);
-            this.lblItem.TabIndex = 0;
-            this.lblItem.Text = "Items";
-            // 
-            // lblCategories
-            // 
-            this.lblCategories.AutoSize = true;
-            this.lblCategories.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategories.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblCategories.Location = new System.Drawing.Point(23, 18);
-            this.lblCategories.Name = "lblCategories";
-            this.lblCategories.Size = new System.Drawing.Size(117, 25);
-            this.lblCategories.TabIndex = 1;
-            this.lblCategories.Text = "Categories";
-            // 
-            // lblCustomer
-            // 
-            this.lblCustomer.AutoSize = true;
-            this.lblCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCustomer.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblCustomer.Location = new System.Drawing.Point(23, 18);
-            this.lblCustomer.Name = "lblCustomer";
-            this.lblCustomer.Size = new System.Drawing.Size(105, 25);
-            this.lblCustomer.TabIndex = 2;
-            this.lblCustomer.Text = "Customer";
-            // 
-            // lblBilling
-            // 
-            this.lblBilling.AutoSize = true;
-            this.lblBilling.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBilling.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblBilling.Location = new System.Drawing.Point(23, 18);
-            this.lblBilling.Name = "lblBilling";
-            this.lblBilling.Size = new System.Drawing.Size(70, 25);
-            this.lblBilling.TabIndex = 3;
-            this.lblBilling.Text = "Billing";
-            // 
-            // lblDashboard
-            // 
-            this.lblDashboard.AutoSize = true;
-            this.lblDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDashboard.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblDashboard.Location = new System.Drawing.Point(23, 19);
-            this.lblDashboard.Name = "lblDashboard";
-            this.lblDashboard.Size = new System.Drawing.Size(117, 25);
-            this.lblDashboard.TabIndex = 4;
-            this.lblDashboard.Text = "Dashboard";
             // 
             // lblLogout
             // 
@@ -394,12 +394,12 @@
             this.Text = "Items";
             this.Load += new System.EventHandler(this.Items_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.pnlCustomer.ResumeLayout(false);
-            this.pnlCustomer.PerformLayout();
-            this.pnlCategories.ResumeLayout(false);
-            this.pnlCategories.PerformLayout();
             this.pnlItem.ResumeLayout(false);
             this.pnlItem.PerformLayout();
+            this.pnlCategories.ResumeLayout(false);
+            this.pnlCategories.PerformLayout();
+            this.pnlCustomer.ResumeLayout(false);
+            this.pnlCustomer.PerformLayout();
             this.pnlBilling.ResumeLayout(false);
             this.pnlBilling.PerformLayout();
             this.pnlDashboard.ResumeLayout(false);
