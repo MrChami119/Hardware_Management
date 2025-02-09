@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Hardware Management\Hardware Management\bin\Debug\Hardware Management.exe.config
+C:\Users\user\source\repos\Hardware Management\Hardware Management\bin\Debug\Hardware Management.exe
+C:\Users\user\source\repos\Hardware Management\Hardware Management\bin\Debug\Hardware Management.pdb
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware Management.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware_Management.Login.resources
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware_Management.Properties.Resources.resources
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware Management.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware Management.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware Management.exe
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware Management.pdb
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware_Management.Billing.resources
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware_Management.Category.resources
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware_Management.Customer.resources
+C:\Users\user\source\repos\Hardware Management\Hardware Management\obj\Debug\Hardware_Management.Items.resources
